@@ -1,0 +1,35 @@
+{
+  "name": "gtec_ws",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "main": "server/server.js",
+  "dependencies": {
+    "loopback": "2.29.0",
+    "body-parser": "1.15",
+    "jsonschema": "1.1.0",
+    "array-query": "0.1.2",
+    "moment": "2.4.0",
+    "node-cache": "3.2.1",
+    "log4js": "0.6.36",
+    "lodash": "latest",
+    "mysql": "latest",
+    "clone": "latest"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "nock": "2.17.0",
+    "sinon": "1.17.3"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "JOIN EXPERIENCE SE",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
