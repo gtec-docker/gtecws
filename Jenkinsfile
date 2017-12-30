@@ -6,7 +6,7 @@ node {
   // we want to pick up the version from the pom
   // Mark the code build 'stage'....
   stage 'Cleaning old build'
-  	sh "sudo docker rm -f gtec_ws || true"
+  	sh "sudo docker rm -f gtecWS || true"
   stage 'Deployment'
 	sh "sudo docker run --name gtecWS -e NODE_ENV=testing -p 3000:3000 gtec_ws:1.0"
 }
