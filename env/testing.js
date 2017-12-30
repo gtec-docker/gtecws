@@ -7,7 +7,7 @@ module.exports = {
 		  password      : "gtec",
 
 		  // For information on connection strings see:
-		  host : "172.17.0.3",
+		  host : "strutsWsDb",
 		  database: "testDb",
 
 		  // Setting externalAuth is optional. It defaults to false.  See:
