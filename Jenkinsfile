@@ -8,5 +8,5 @@ node {
   stage 'Cleaning old build'
   	sh "sudo docker rm -f gtecWS || true"
   stage 'Deployment'
-	sh "sudo docker run -d --name gtecWS -e NODE_ENV=testing -p 3000:3000 gtec_ws:1.0"
+	sh "sudo docker run -d --name gtecWS --link strutsWsDb:strutsWsDb -e NODE_ENV=testing -p 3000:3000 gtec_ws:1.0"
 }
